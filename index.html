@@ -4,17 +4,12 @@
         <meta charset="utf-8">
         <title>Troop 106 Manchester, NH</title>
         <link href="Assets/Css/style.css" rel="stylesheet" type="text/css" />
-        <script src="Assets/Js/slideshow.js"></script>
+        <script type="text/javascript" src="Assets/Js/core.js"></script>
+        <script type="text/javascript" src="Assets/Js/topmenu.js"></script>
+        <script type="text/javascript" src="Assets/Js/slideshow.js"></script>
     </head>
     <body>
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0&appId=383671495307285&autoLogAppEvents=1';
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+
       <!-- the top navigation menu -->
       <nav class="top-menu-standard">
 
@@ -48,6 +43,16 @@
         </div>
 
       </nav>
+
+<!-- required for facebook link to work -->
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0&appId=383671495307285&autoLogAppEvents=1';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
 
 <!-- first section -->
       <div class="container"> <!-- allows styling of each section's background -->
