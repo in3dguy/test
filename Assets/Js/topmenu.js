@@ -2,7 +2,7 @@ OnLoad(function()
 {
   // find all elements that have a href of #topmenu
   var menuExpanders = document.querySelectorAll("[href='#topmenu']");
-console.debug()
+
   // loop each menu expander
   ForEach(menuExpanders, function(item)
   {
@@ -18,9 +18,10 @@ console.debug()
       // for each menu
       ForEach(topMenus, function(menu)
       {
+        // get the value of the data-topmenu attribute
         var menuClass = menu.getAttribute("data-topmenu-class");
 
-        // add the class to this item
+        // add/remove the class to this item
         menu.classList.toggle(menuClass);
       });
     });
