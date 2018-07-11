@@ -3140,7 +3140,7 @@ body {
 }
 
 html {
-  background-image: url("../Images/background.jpg");
+  background: url(../Images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -3148,7 +3148,8 @@ html {
 
 @media only screen and (max-width: 900px) {
   html {
-    background-image: url("../Images/background-mobile-2.png");
+    background: url(../Images/background-mobile-2.png);
+    display: block;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
