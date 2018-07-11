@@ -3150,9 +3150,9 @@ html {
   html {
     background: url(../Images/background-mobile-2.png);
     /* display: block; */
+    background-attachment: fixed;
     background-size: contain;
     background-repeat: no-repeat;
-    background-attachment: fixed;
   }
 }
 
