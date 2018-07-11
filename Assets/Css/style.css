@@ -3149,8 +3149,8 @@ html {
 @media only screen and (max-width: 900px) {
   html {
     background: url(../Images/background-mobile-2.png);
-    display: block;
-    background-size: cover;
+    /* display: block; */
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
